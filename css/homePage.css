@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Irish+Grover&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +25,8 @@
   .nav-bar > a {
     font-size: 22px;
     font-weight: bold;
-    color: #ffffff;
+    color: #809671;
+    font-family: Irish Grover;
     text-decoration: none;
   }
   
@@ -37,8 +39,8 @@
     gap: 20px;
   }
   
-  .nav-bar a {
-    color: #809671;
+  .nav-bar ul li a {
+    color: #000000;
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 5px;
@@ -70,6 +72,7 @@
   
   footer .redes a {
     color: white;
+    font-family: Irish Grover;
     text-decoration: none;
     font-weight: bold;
   }
